@@ -1,6 +1,52 @@
 @import url(mediaQuery.css);
 
+@font-face {
+    font-family: "B-titr";
+    src: url(../Fonts/BTitr/B\ Titr\ Bold_0.ttf ), format(".ttf");
+}
+
+@font-face {
+    font-family: "B-nazanin";
+    src: url(../Fonts/BNazanin/B-NAZANIN.TTF ), format(".ttf");
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
+}
+
+p, a, i {
+    font-family: B-nazanin;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: B-titr;
+}
+
+header {
+    background-image: url(../IMG/BG-Header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+nav {
+    font-weight: 700;
+    color: aliceblue !important;
+}
+
+nav a {
+    color: aliceblue !important;
+}
+
+nav span, nav button {
+    color: aliceblue !important;
+}
+
+.me-bg-smooth-dark {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #423f3f77;
 }
