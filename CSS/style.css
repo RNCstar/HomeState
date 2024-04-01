@@ -1,0 +1,6 @@
+@import url(mediaQuery.css);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
