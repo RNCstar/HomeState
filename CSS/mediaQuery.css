@@ -3,4 +3,28 @@
         margin-right: auto;
         gap: 20px;
     }
+
+    nav li {
+        background-color: #fff !important;
+        border-radius: 50%;
+        width: 60px;
+        text-align: center;
+        transition: all 0.3s ease-in-out;
+    }
+
+    nav li:hover {
+        background-color: #EB9B01 !important;
+    }
+
+    #part1, #part2 {
+        align-self: flex-start;
+        margin-right: 120px;
+    }
+
+    #part3 {
+        align-self: flex-start;
+        margin-right: 45px;
+        transition: all 0.2s ease-out;
+    }
+
 }
