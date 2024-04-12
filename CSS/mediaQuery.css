@@ -4,6 +4,10 @@
         gap: 20px;
     }
 
+    header {
+        padding-bottom: 95px;
+    }
+
     nav li {
         background-color: #fff !important;
         border-radius: 50%;
@@ -14,6 +18,8 @@
 
     nav li:hover {
         background-color: #EB9B01 !important;
+        border-radius: 6px;
+        width: 100px;
     }
 
     #part1, #part2 {
@@ -27,4 +33,31 @@
         transition: all 0.2s ease-out;
     }
 
+    #part4 {
+        margin-right: 80px;
+    }
+
+    #part4 span {
+        border-radius: 4px;
+    }
+
+    #part4 span:hover i {
+        color: #EB9B01;
+    }
+
+    #part4 i {
+        font-size: 30px;
+        transition: all 0.3s ease-out;
+    }
+}
+
+
+
+
+/* for high very high  */
+
+@media screen and (min-width:1500px) {
+    header {
+        padding-bottom: 300px;
+    }
 }

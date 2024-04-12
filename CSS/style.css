@@ -13,6 +13,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+
 }
 
 a {
@@ -115,4 +116,20 @@ header .navbar-brand {
     height: 50px;
     width: 2px;
     border-right: 1px solid#fff;
+}
+
+
+
+#part4 span {
+    background-color: #6B6E72;
+    padding: 20px;
+}
+
+#part4 span i {
+    color: #fff;
+    font-size: 25px;
+}
+
+#part4 span {
+    border-radius: 4px;
 }
