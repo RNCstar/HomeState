@@ -133,3 +133,26 @@ header .navbar-brand {
 #part4 span {
     border-radius: 4px;
 }
+
+#topPart {
+    background-color: #F6F6F6;
+    padding: 50px 5px 40px 5px;
+}
+
+#NO_man p, #Skype_man p {
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+#NO_man, #Skype_man {
+    border-radius: 5px;
+    border: 1px solid #EB9B01;
+    background-color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+#NO_man i, #Skype_man i {
+    color: #EB9B01;
+}
