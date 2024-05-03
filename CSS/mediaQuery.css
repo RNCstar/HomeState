@@ -66,10 +66,7 @@
 /* for only mobile style */
 @media screen and (max-width:991px) {
     .centerContentMe {
-        margin-bottom: 20px;
+        margin-bottom: 20px !important;
     }
 
-    .centerContentMe:first-child {
-        margin-top: 10px;
-    }
 }
