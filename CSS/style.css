@@ -1,4 +1,5 @@
 @import url(mediaQuery.css);
+@import url(./csspanel.css);
 
 @font-face {
     font-family: "B-titr";
@@ -35,6 +36,10 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
+}
+
+header img {
+    max-width: 150px !important;
 }
 
 header .navbar-brand {
@@ -155,4 +160,9 @@ header .navbar-brand {
 
 #NO_man i, #Skype_man i {
     color: #EB9B01;
+}
+
+.centerContentMe {
+    display: flex;
+    justify-content: center;
 }
