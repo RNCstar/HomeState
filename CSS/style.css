@@ -166,3 +166,42 @@ header .navbar-brand {
     display: flex;
     justify-content: center;
 }
+
+.carousel-img-box {
+    background-color: #F6F6F6;
+}
+
+.card-imgme {
+    height: 350px !important;
+    width: 250px !important;
+    background-color: #fff;
+    margin-bottom: 30px;
+    position: relative;
+    padding: 10px;
+    border-radius: 11px;
+}
+
+.hint-box-img {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 6px;
+    top: 38%;
+    font-size: 12px;
+    font-weight: 700;
+    transition: background 0.3s ease-in-out;
+}
+
+.hint-box-img:hover {
+    background-color: #EB9B01;
+    cursor: pointer;
+}
+
+.container-Allimg {
+    /* overflow-x: scroll; */
+    overflow-x: scroll;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    column-gap: 30px;
+    margin-bottom: 30px;
+}
