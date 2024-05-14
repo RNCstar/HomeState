@@ -205,3 +205,17 @@ header .navbar-brand {
     column-gap: 30px;
     margin-bottom: 30px;
 }
+
+.imgPersonItem {
+    width: clamp(140px, 25vw, 30vw);
+}
+
+.containerBox h4, .containerBox p {
+    padding: 0 20px;
+}
+
+#personPartID {
+    overflow-x: scroll;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
