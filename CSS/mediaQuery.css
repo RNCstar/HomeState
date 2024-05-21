@@ -75,4 +75,15 @@
         margin-bottom: 20px !important;
     }
 
+    .mobile-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center !important;
+    }
+
+    .mobile-img {
+        width: 80% !important;
+        margin-top: 35px !important;
+    }
 }
