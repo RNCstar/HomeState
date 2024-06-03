@@ -75,6 +75,10 @@
         margin-bottom: 20px !important;
     }
 
+    .container-footer ul {
+        display: none !important;
+    }
+
     .mobile-box {
         display: flex;
         flex-direction: column;

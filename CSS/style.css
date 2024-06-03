@@ -99,7 +99,7 @@ header .navbar-brand {
 }
 
 #part3:hover {
-    background-color: black;
+    background-color: #EB9B01;
 }
 
 .intro-header h5, .intro-header h2 {
@@ -246,4 +246,47 @@ header .navbar-brand {
 .send-btn:hover {
     background-color: #EB9B01 !important;
     color: #fff !important;
+}
+
+
+
+.container-footer {
+    background-image: url(../IMG/download.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    color: #fff !important;
+}
+
+.container-footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.container-footer li {
+
+    list-style-type: none !important;
+}
+
+.container-footer p {
+    width: 63vw;
+    text-align: center;
+}
+
+.container-footer a {
+    font-weight: bold;
+    text-shadow: #EB9B01 1px 1px 1px;
+    transition: color 0.3s ease-in-out;
+    font-size: 20px;
+    color: #fff !important;
+}
+
+.container-footer a:hover {
+    color: #EB9B01 !important;
+    text-shadow: none !important;
 }
